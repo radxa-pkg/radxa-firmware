@@ -22,13 +22,14 @@ jobs:
           make all deb
       - name: Check if the latest version is releasable
         run: |
-          echo "version=$(dpkg-parsechangelog -S Version)" >> $GITHUB_ENV
+          version="$(dpkg-parsechangelog -S Version)"
+          echo "version=$version" >> $GITHUB_ENV
           echo "changes<<EOF" >> $GITHUB_ENV
           echo '```' >> $GITHUB_ENV
           echo "$(dpkg-parsechangelog -S Changes)" >> $GITHUB_ENV
           echo '```' >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-          if [[ -n "$(git tag -l "$(dpkg-parsechangelog -S Version)")" ]]
+          if [[ -n "$(git tag -l "$version")" ]]
           then
             echo "distro=UNRELEASED" >> $GITHUB_ENV
           else
