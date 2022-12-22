@@ -1,3 +1,10 @@
+radxa-firmware (0.2.1) stable; urgency=medium
+
+  * Fix conflict with firmware-brcm80211
+  * Add brcm43455 NVRAM
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 22 Dec 2022 15:46:16 +0800
+
 radxa-firmware (0.2.0) stable; urgency=medium
 
   First release to work with distro firmwares
