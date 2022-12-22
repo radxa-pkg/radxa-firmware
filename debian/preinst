@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+action="$1"
+
+case $1 in
+	install|upgrade)
+        conflicts="cypress/cyfmac43455-sdio.bin cypress/cyfmac43455-sdio.clm_blob"
+        for i in $conflicts
+        do
+            dpkg-divert --package radxa-firmware --divert "/lib/firmware/$i.bak" --rename "/lib/firmware/$i"
+        done
+		;;
+esac
+    
+#DEBHELPER#
+
+exit 0
