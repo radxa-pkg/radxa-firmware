@@ -1,0 +1,5 @@
+radxa-firmware (0.2.0) stable; urgency=medium
+
+  First release to work with distro firmwares
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 22 Dec 2022 11:34:16 +0800

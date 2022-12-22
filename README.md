@@ -1,3 +1,3 @@
 # radxa-firmware
 
-Forked from armbian/firmware
+Supplemental firmwares that are not shipped by Debian
