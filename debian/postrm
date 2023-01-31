@@ -4,13 +4,13 @@ set -e
 #DEBHELPER#
 
 case $1 in
-	remove)
-		conflicts="cypress/cyfmac43455-sdio.bin cypress/cyfmac43455-sdio.clm_blob"
+    remove)
+        conflicts="cypress/cyfmac43455-sdio.bin cypress/cyfmac43455-sdio.clm_blob"
         for i in $conflicts
         do
             dpkg-divert --package radxa-firmware --rename --remove "/lib/firmware/$i"
         done
-		;;
+        ;;
 esac
 
 exit 0
