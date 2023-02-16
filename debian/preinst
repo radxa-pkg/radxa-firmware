@@ -3,7 +3,7 @@ set -e
 
 case $1 in
     install|upgrade)
-        conflicts="cypress/cyfmac43455-sdio.bin cypress/cyfmac43455-sdio.clm_blob"
+        conflicts="cypress/cyfmac43455-sdio.bin cypress/cyfmac43455-sdio.clm_blob iwlwifi-ty-a0-gf-a0.pnvm"
         for i in $conflicts
         do
             dpkg-divert --package radxa-firmware --divert "/lib/firmware/$i.bak" --rename "/lib/firmware/$i"
