@@ -1,3 +1,10 @@
+radxa-firmware (0.2.2) stable; urgency=medium
+
+  * Fix code style
+  * Add brcm/BCM4345C5.hcd Bluetooth firmware for AP6256
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 16 Feb 2023 11:43:45 +0800
+
 radxa-firmware (0.2.1) stable; urgency=medium
 
   * Fix conflict with firmware-brcm80211
