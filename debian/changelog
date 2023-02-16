@@ -1,3 +1,9 @@
+radxa-firmware (0.2.3) stable; urgency=medium
+
+  * Fix Intel AX210 support
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 16 Feb 2023 19:09:06 +0800
+
 radxa-firmware (0.2.2) stable; urgency=medium
 
   * Fix code style
