@@ -1,3 +1,9 @@
+radxa-firmware (0.2.4) stable; urgency=medium
+
+  * Add Mali-G610 firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 21 Feb 2023 11:58:53 +0800
+
 radxa-firmware (0.2.3) stable; urgency=medium
 
   * Fix Intel AX210 support
