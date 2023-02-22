@@ -1,3 +1,9 @@
+radxa-firmware (0.2.5) stable; urgency=medium
+
+  * Remove Mali firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 22 Feb 2023 17:23:00 +0800
+
 radxa-firmware (0.2.4) stable; urgency=medium
 
   * Add Mali-G610 firmware
