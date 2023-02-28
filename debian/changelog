@@ -1,3 +1,9 @@
+radxa-firmware (0.2.6) stable; urgency=medium
+
+  * Add heneric NVRAM file for AP6212
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 28 Feb 2023 11:06:17 +0800
+
 radxa-firmware (0.2.5) stable; urgency=medium
 
   * Remove Mali firmware
