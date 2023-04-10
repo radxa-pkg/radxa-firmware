@@ -1,6 +1,13 @@
+radxa-firmware (0.2.7) stable; urgency=medium
+
+  * Use Infineon provided NVRAM for brcm43455
+  * Add RTL8852BU Bluetooth firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 10 Apr 2023 16:14:41 +0800
+
 radxa-firmware (0.2.6) stable; urgency=medium
 
-  * Add heneric NVRAM file for AP6212
+  * Add generic NVRAM file for AP6212
 
  -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 28 Feb 2023 11:06:17 +0800
 
