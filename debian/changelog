@@ -1,3 +1,10 @@
+radxa-firmware (0.2.9) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add RTL8723DS Bluetooth firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 26 Apr 2023 21:15:39 +0800
+
 radxa-firmware (0.2.8) stable; urgency=medium
 
   * Add RTL8723BE Bluetooth firmware
