@@ -1,3 +1,13 @@
+radxa-firmware (0.2.12) jammy; urgency=medium
+
+  [ Chuang Ma ]
+  * cyfmac43455: fix Bluetooth and Wi-Fi simultaneous usage
+
+  [ ZHANG Yuntian ]
+  * Update CI test
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 29 Aug 2023 08:46:01 +0000
+
 radxa-firmware (0.2.11) jammy; urgency=medium
 
   [ Alvin Xie ]
