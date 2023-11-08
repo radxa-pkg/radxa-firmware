@@ -1,3 +1,10 @@
+radxa-firmware (0.2.14) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Fix installation issue
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 08 Nov 2023 09:22:03 +0000
+
 radxa-firmware (0.2.13) jammy; urgency=medium
 
   [ dependabot[bot] ]
