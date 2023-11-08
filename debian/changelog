@@ -1,3 +1,22 @@
+radxa-firmware (0.2.13) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+  [ ZHANG Yuntian ]
+  * Import R-Car firmwares
+
+  [ Stephen Chen ]
+  * add rtw8852b_fw.bin from lwfinger.com/download/rtw8852b_fw.bin
+
+  [ ZHANG Yuntian ]
+  * Make sure CI is running on main branch
+
+  [ Stephen Chen ]
+  * add AIC8800D80 firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 08 Nov 2023 02:46:37 +0000
+
 radxa-firmware (0.2.12) jammy; urgency=medium
 
   [ Chuang Ma ]
