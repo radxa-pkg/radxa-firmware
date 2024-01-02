@@ -1,3 +1,14 @@
+radxa-firmware (0.2.17) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/upload-artifact from 3 to 4
+  * Bump actions/download-artifact from 3 to 4
+
+  [ ZHANG Yuntian ]
+  * Update aic8800D80 firmware to aic8800d_linux_sdk_V3.0_2023_1212_15dcf017
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 02 Jan 2024 06:39:25 +0000
+
 radxa-firmware (0.2.16) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
