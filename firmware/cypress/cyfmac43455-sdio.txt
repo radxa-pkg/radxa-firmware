@@ -14,7 +14,13 @@ boardrev=0x1304
 #XTAL 37.4MHz
 xtalfreq=37400
 
-btc_mode=1
+#------------------------------------------------------
+# btc_mode: Setting btc_mode to 1 to enable Wi-Fi and BT coexistence.
+#          However, Wi-Fi connectivity issue was discovered with this option set.
+#          Disable this option for now.
+
+# btc_mode = 1
+
 #------------------------------------------------------
 #boardflags: 5GHz eTR switch by default
 #            2.4GHz eTR switch by default
