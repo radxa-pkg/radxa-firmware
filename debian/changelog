@@ -1,3 +1,10 @@
+radxa-firmware (0.2.18) jammy; urgency=medium
+
+  [ Chuang Ma ]
+  * cyfmac43455-sdio.txt: Removed bt_mode argument
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 30 Jan 2024 08:13:09 +0000
+
 radxa-firmware (0.2.17) jammy; urgency=medium
 
   [ dependabot[bot] ]
