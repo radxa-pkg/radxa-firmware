@@ -1,3 +1,11 @@
+radxa-firmware (0.2.20) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Import complete AIC8800 firmware set
+  * Remove existing AIC8800 SDIO firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 04 Mar 2024 09:27:02 +0000
+
 radxa-firmware (0.2.19) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
