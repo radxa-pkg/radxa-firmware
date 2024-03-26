@@ -6,7 +6,6 @@ case $1 in
         conflicts="
         cypress/cyfmac43455-sdio.bin
         cypress/cyfmac43455-sdio.clm_blob
-        iwlwifi-ty-a0-gf-a0.pnvm
         rtw89/rtw8852b_fw.bin
         r8a779x_usb3_v1.dlmem
         r8a779x_usb3_v2.dlmem
