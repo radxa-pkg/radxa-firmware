@@ -1,3 +1,15 @@
+radxa-firmware (0.2.21) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump softprops/action-gh-release from 1 to 2
+
+  [ CodeChenL ]
+  * fix: recover pnvm, make 6.1 kernel load firmware successfully
+  * fix: remove all AIC8800 firmware
+  * feat: add CODEOWNERS
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 02 Apr 2024 08:23:30 +0000
+
 radxa-firmware (0.2.20) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
