@@ -1,3 +1,10 @@
+radxa-firmware (0.2.23) noble; urgency=medium
+
+  [ Mitchell Ma ]
+  * feat: update ap6256 firmware compatible with bcmdhd driver
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 18 Jul 2025 03:13:37 +0000
+
 radxa-firmware (0.2.22) jammy; urgency=medium
 
   [ CodeChenL ]
