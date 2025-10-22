@@ -1,3 +1,10 @@
+radxa-firmware (0.2.25) noble; urgency=medium
+
+  [ Jiali Chen ]
+  * fix: add RTL8852BS Bluetooth firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 22 Oct 2025 08:02:16 +0000
+
 radxa-firmware (0.2.24) noble; urgency=medium
 
   [ ZHANG Yuntian ]
