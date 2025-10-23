@@ -1,0 +1,20 @@
+# DSP libraries contain binary blobs
+radxa-firmware-qcs6490: unstripped-binary-or-object
+
+# DSP libraries don't link against host libc
+radxa-firmware-qcs6490: library-not-linked-against-libc
+
+# DSP binaries lack stack sections
+radxa-firmware-qcs6490: shared-library-lacks-stack-section
+
+# DSP libraries have different dependency requirements
+radxa-firmware-qcs6490: shared-library-lacks-prerequisites
+
+# DSP firmware have different ELF dependency declarations
+radxa-firmware-qcs6490: undeclared-elf-prerequisites
+
+# DSP firmware is architecture independent
+radxa-firmware-qcs6490: arch-independent-package-contains-binary-or-object
+
+# DSP firmware are statically linked
+radxa-firmware-qcs6490: statically-linked-binary
