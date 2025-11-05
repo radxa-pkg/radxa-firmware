@@ -1,3 +1,10 @@
+radxa-firmware (0.2.27) noble; urgency=medium
+
+  [ HE Zhengyu ]
+  * feat: add radxa-firmware-qcs9075
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 05 Nov 2025 10:47:26 +0000
+
 radxa-firmware (0.2.26) noble; urgency=medium
 
   [ HE Zhengyu ]
