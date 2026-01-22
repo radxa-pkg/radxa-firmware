@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    configure|abort-upgrade|abort-deconfigure|abort-remove)
+        conflicts="
+        adsprpcd.service
+        cdsp1rpcd.service
+        cdsprpcd.service
+        gdsp1rpcd.service
+        gdsprpcd.service
+        "
+        if [ -d /run/systemd/system ]; then
+            systemctl --system daemon-reload >/dev/null || true
+            for i in $conflicts
+            do
+                deb-systemd-invoke try-restart "$i" >/dev/null || true
+            done
+        fi
+        ;;
+esac
+
+#DEBHELPER#
+exit 0

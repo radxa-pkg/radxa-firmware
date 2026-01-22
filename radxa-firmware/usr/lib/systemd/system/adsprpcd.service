@@ -1,0 +1,19 @@
+[Unit]
+Description=adsprpc Service
+Requires=dev-fastrpc\x2dadsp\x2dsecure.device
+After=dev-fastrpc\x2dadsp\x2dsecure.device
+SourcePath=/usr/lib/qcom-fastrpc1/adsprpcd
+
+[Service]
+User=fastrpc
+Group=fastrpc
+Restart=always
+ExecStartPre=+/bin/bash -c 'if [ -L /usr/lib/dsp/adsp ]; then rm /usr/lib/dsp/adsp; fi'
+ExecStartPre=+/bin/mkdir -p /usr/lib/dsp/adsp
+ExecStartPre=+/bin/bash -c 'SOC=$(cat /sys/devices/soc0/soc_id); \
+if [ "$SOC" = "498" ]; then \
+    ln -sf /usr/share/qcom/qcs6490/Radxa/Dragon-Q6A/dsp/adsp/* /usr/lib/dsp/adsp; \
+elif [ "$SOC" = "676" ]; then \
+    ln -sf /usr/share/qcom/qcs9075/Radxa/AIRbox-Q900/dsp/adsp/* /usr/lib/dsp/adsp; \
+fi'
+ExecStart=/usr/lib/qcom-fastrpc1/adsprpcd

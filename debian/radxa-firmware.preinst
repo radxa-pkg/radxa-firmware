@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    install|upgrade)
+        conflicts="
+        /usr/lib/systemd/system/adsprpcd.service
+        /usr/lib/systemd/system/cdsp1rpcd.service
+        /usr/lib/systemd/system/cdsprpcd.service
+        /usr/lib/systemd/system/gdsp1rpcd.service
+        /usr/lib/systemd/system/gdsprpcd.service
+        /usr/lib/firmware/cypress/cyfmac43455-sdio.bin
+        /usr/lib/firmware/cypress/cyfmac43455-sdio.clm_blob
+        /usr/lib/firmware/rtw89/rtw8852b_fw.bin
+        /usr/lib/firmware/r8a779x_usb3_v1.dlmem
+        /usr/lib/firmware/r8a779x_usb3_v2.dlmem
+        /usr/lib/firmware/r8a779x_usb3_v3.dlmem
+        "
+
+        for i in $conflicts; do
+            dpkg-divert --package radxa-firmware --divert "${i}.bak" --rename "$i"
+        done
+        ;;
+esac
+
+#DEBHELPER#
+exit 0

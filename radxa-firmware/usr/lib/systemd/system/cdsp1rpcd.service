@@ -1,0 +1,21 @@
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+[Unit]
+Description=cdsp1rpc Service
+Requires=dev-fastrpc\x2dcdsp1\x2dsecure.device
+After=dev-fastrpc\x2dcdsp1\x2dsecure.device
+SourcePath=/usr/lib/qcom-fastrpc1/cdsprpcd
+
+[Service]
+User=fastrpc
+Group=fastrpc
+Restart=always
+ExecStartPre=+/bin/mkdir -p /usr/lib/dsp/cdsp1
+ExecStartPre=+/bin/bash -c 'SOC=$(cat /sys/devices/soc0/soc_id); \
+if [ "$SOC" = "676" ]; then \
+    ln -sf /usr/share/qcom/qcs9075/Radxa/AIRbox-Q900/dsp/cdsp1/* /usr/lib/dsp/cdsp1; \
+fi'
+ExecStart=/usr/lib/qcom-fastrpc1/cdsprpcd rootpd cdsp1

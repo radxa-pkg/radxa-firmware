@@ -18,3 +18,6 @@ radxa-firmware-qcs6490: arch-independent-package-contains-binary-or-object
 
 # DSP firmware are statically linked
 radxa-firmware-qcs6490: statically-linked-binary
+
+# DSP firmware file in usr share
+radxa-firmware-qcs6490: arch-dependent-file-in-usr-share
