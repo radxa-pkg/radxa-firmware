@@ -1,3 +1,13 @@
+radxa-firmware (0.2.28) noble; urgency=medium
+
+  [ CodeChenL ]
+  * feat: add pkg.conf.template
+
+  [ Chongbiao Chen ]
+  * chore: move firmware to radxa-firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 26 Jan 2026 02:11:15 +0000
+
 radxa-firmware (0.2.27) noble; urgency=medium
 
   [ HE Zhengyu ]
