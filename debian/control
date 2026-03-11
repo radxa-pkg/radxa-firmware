@@ -20,7 +20,8 @@ Package: radxa-firmware-qcs6490
 Architecture: all
 Section: misc
 Priority: optional
-Depends: firmware-qcom-hlosfw,
+Depends: firmware-qcom-hlosfw | firmware-qcom-soc,
+         firmware-qcom-audioreach,
          ${misc:Depends},
 Description: Radxa QCS6490 supplemental firmware
  This package contains firmwares for Radxa devices based on

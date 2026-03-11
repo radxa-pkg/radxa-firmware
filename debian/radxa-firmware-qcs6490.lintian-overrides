@@ -15,6 +15,7 @@ radxa-firmware-qcs6490: undeclared-elf-prerequisites
 
 # DSP firmware is architecture independent
 radxa-firmware-qcs6490: arch-independent-package-contains-binary-or-object
+radxa-firmware-qcs6490: arch-dependent-file-in-usr-share
 
 # DSP firmware are statically linked
 radxa-firmware-qcs6490: statically-linked-binary
