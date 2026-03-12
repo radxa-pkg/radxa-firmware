@@ -1,0 +1,21 @@
+# DSP libraries contain binary blobs
+radxa-firmware-sc8280xp: unstripped-binary-or-object
+
+# DSP libraries don't link against host libc
+radxa-firmware-sc8280xp: library-not-linked-against-libc
+
+# DSP binaries lack stack sections
+radxa-firmware-sc8280xp: shared-library-lacks-stack-section
+
+# DSP libraries have different dependency requirements
+radxa-firmware-sc8280xp: shared-library-lacks-prerequisites
+
+# DSP firmware have different ELF dependency declarations
+radxa-firmware-sc8280xp: undeclared-elf-prerequisites
+
+# DSP firmware is architecture independent
+radxa-firmware-sc8280xp: arch-independent-package-contains-binary-or-object
+radxa-firmware-sc8280xp: arch-dependent-file-in-usr-share
+
+# DSP firmware are statically linked
+radxa-firmware-sc8280xp: statically-linked-binary
