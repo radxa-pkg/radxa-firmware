@@ -1,0 +1,18 @@
+#!/bin/sh
+
+PREREQ=""
+
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+mkdir -p ${DESTDIR}/lib/firmware/qcom/qcs6490/radxa
+cp -r /lib/firmware/qcom/qcs6490/radxa/* ${DESTDIR}/lib/firmware/qcom/qcs6490/radxa
