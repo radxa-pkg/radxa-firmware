@@ -1,0 +1,3 @@
+# Their hardware architecture is the same, so we can share the firmware files.
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a lib/firmware/qcom/qcs6490/radxa/cm-q64
+usr/share/qcom/qcs6490/radxa/dragon-q6a usr/share/qcom/qcs6490/radxa/cm-q64
