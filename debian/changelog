@@ -1,3 +1,24 @@
+radxa-firmware (0.2.30) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * chore: update QCS6490 firmware arrangement
+  * feat: add initial radxa-firmware-sc8280xp
+  * fix: add cyfmac43430-sdio.txt symlink
+  * Update pkg.conf.template
+
+  [ Chongbiao Chen ]
+  * feat: add initramfs-hook
+  * chore: update firmware link for airbox q900
+
+  [ Jiali Chen ]
+  * feat: add radxa-cm-q64 firmware
+
+  [ Stephen Chen ]
+  * feat: radxa-firmware-sc8280xp: Add firmware and libraries
+  * feat: update dragon-q8b firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 14 May 2026 08:42:36 +0000
+
 radxa-firmware (0.2.29) noble; urgency=medium
 
   [ Stephen Chen ]
