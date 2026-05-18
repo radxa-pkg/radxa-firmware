@@ -20,7 +20,7 @@ Package: radxa-firmware-qcs6490
 Architecture: all
 Section: misc
 Priority: optional
-Depends: firmware-qcom-hlosfw | firmware-qcom-soc,
+Depends: firmware-qcom-hlosfw | firmware-qcom-soc | linux-firmware-qualcomm-misc,
          firmware-qcom-audioreach,
          ${misc:Depends},
 Description: Radxa QCS6490 supplemental firmware
@@ -41,7 +41,7 @@ Package: radxa-firmware-sc8280xp
 Architecture: all
 Section: misc
 Priority: optional
-Depends: firmware-qcom-hlosfw | firmware-qcom-soc,
+Depends: firmware-qcom-hlosfw | firmware-qcom-soc | linux-firmware-qualcomm-misc,
          firmware-qcom-audioreach,
          ${misc:Depends},
 Description: Radxa SC8280XP supplemental firmware
