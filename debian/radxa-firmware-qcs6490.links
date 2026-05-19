@@ -1,3 +1,7 @@
-# Their hardware architecture is the same, so we can share the firmware files.
-lib/firmware/qcom/qcs6490/radxa/dragon-q6a lib/firmware/qcom/qcs6490/radxa/cm-q64
-usr/share/qcom/qcs6490/radxa/dragon-q6a usr/share/qcom/qcs6490/radxa/cm-q64
+# Their hardware architecture is roughly the same, so we can share the firmware files.
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adsp.mbn lib/firmware/qcom/qcs6490/radxa/cm-q64/adsp.mbn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adspr.jsn lib/firmware/qcom/qcs6490/radxa/cm-q64/adspr.jsn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adspua.jsn lib/firmware/qcom/qcs6490/radxa/cm-q64/adspua.jsn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn lib/firmware/qcom/qcs6490/radxa/cm-q64/cdsp.mbn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn lib/firmware/qcom/qcs6490/radxa/cm-q64/cdspr.jsn
+usr/share/qcom/qcs6490/radxa/dragon-q6a/dsp usr/share/qcom/qcs6490/radxa/cm-q64/dsp
