@@ -1,3 +1,13 @@
+radxa-firmware (0.2.31) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * fix: Add linux-firmware-qualcomm-misc for resolute
+
+  [ Jiali Chen ]
+  * fix: refine the granularity of soft links
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 21 May 2026 11:57:39 +0000
+
 radxa-firmware (0.2.30) noble; urgency=medium
 
   [ ZHANG Yuntian ]
