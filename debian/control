@@ -42,6 +42,7 @@ Architecture: all
 Section: misc
 Priority: optional
 Depends: firmware-qcom-hlosfw | firmware-qcom-soc | linux-firmware-qualcomm-misc,
+         firmware-qcom-soc | linux-firmware-qcom-graphic | linux-firmware,
          firmware-qcom-audioreach,
          ${misc:Depends},
 Description: Radxa SC8280XP supplemental firmware
