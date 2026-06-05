@@ -1,3 +1,10 @@
+radxa-firmware (0.2.34) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * fix: add firmware dependency alternatives for GPU and display fw
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 05 Jun 2026 12:08:46 +0000
+
 radxa-firmware (0.2.33) noble; urgency=medium
 
   [ Chongbiao Chen ]
