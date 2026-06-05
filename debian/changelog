@@ -1,3 +1,10 @@
+radxa-firmware (0.2.33) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * feat: add A660 GPU and 21BX display fw to initramfs
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 05 Jun 2026 09:08:36 +0000
+
 radxa-firmware (0.2.32) noble; urgency=medium
 
   [ Stephen Chen ]
