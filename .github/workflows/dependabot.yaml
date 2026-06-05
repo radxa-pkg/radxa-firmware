@@ -16,7 +16,7 @@ jobs:
         gh pr review --approve "$PR_URL"
     - continue-on-error: true
       env:
-        GH_TOKEN: "${{secrets.GIT_PUSH_TOKEN}}"
+        GH_TOKEN: "${{secrets.CODE_WRITE_TOKEN}}"
         PR_URL: "${{github.event.pull_request.html_url}}"
       name: "Approve a PR with private token"
       run: |
