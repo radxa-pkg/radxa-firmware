@@ -1,3 +1,10 @@
+radxa-firmware (0.2.35) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * fix: add zst fallback for sc8280xp initramfs hook
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Sat, 06 Jun 2026 05:25:37 +0000
+
 radxa-firmware (0.2.34) noble; urgency=medium
 
   [ Chongbiao Chen ]
