@@ -20,9 +20,6 @@ mkdir -p ${DESTDIR}/lib/firmware/qcom/sc8280xp/LENOVO/21BX
 cp -r /lib/firmware/qcom/sc8280xp/radxa/* ${DESTDIR}/lib/firmware/qcom/sc8280xp/radxa
 cp -r /lib/firmware/qcom/sc8280xp/qccdsp8280.mbn ${DESTDIR}/lib/firmware/qcom/sc8280xp/qccdsp8280.mbn
 cp -r /lib/firmware/qcom/vpu/vpu20_p4_gen2_s6.mbn ${DESTDIR}/lib/firmware/qcom/vpu/vpu20_p4_gen2_s6.mbn
-cp /lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn.zst ${DESTDIR}/lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn.zst 2>/dev/null || \
-    cp /lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn ${DESTDIR}/lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
-cp /lib/firmware/qcom/a660_sqe.fw.zst ${DESTDIR}/lib/firmware/qcom/a660_sqe.fw.zst 2>/dev/null || \
-    cp /lib/firmware/qcom/a660_sqe.fw ${DESTDIR}/lib/firmware/qcom/a660_sqe.fw
-cp /lib/firmware/qcom/a660_gmu.bin.zst ${DESTDIR}/lib/firmware/qcom/a660_gmu.bin.zst 2>/dev/null || \
-    cp /lib/firmware/qcom/a660_gmu.bin ${DESTDIR}/lib/firmware/qcom/a660_gmu.bin
+cp /lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn* ${DESTDIR}/lib/firmware/qcom/sc8280xp/LENOVO/21BX/
+cp /lib/firmware/qcom/a660_sqe.fw* ${DESTDIR}/lib/firmware/qcom/
+cp /lib/firmware/qcom/a660_gmu.bin* ${DESTDIR}/lib/firmware/qcom/
