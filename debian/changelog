@@ -1,3 +1,10 @@
+radxa-firmware (0.2.36) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * fix: use wildcard for firmware paths in sc8280xp initramfs hook
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 26 Jun 2026 11:23:45 +0000
+
 radxa-firmware (0.2.35) noble; urgency=medium
 
   [ Chongbiao Chen ]
