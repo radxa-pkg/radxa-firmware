@@ -1,3 +1,10 @@
+radxa-firmware (0.2.37) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * fix: update dragon-q8b adsp firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 29 Jun 2026 07:55:13 +0000
+
 radxa-firmware (0.2.36) noble; urgency=medium
 
   [ Chongbiao Chen ]
