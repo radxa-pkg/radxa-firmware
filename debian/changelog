@@ -1,3 +1,10 @@
+radxa-firmware (0.2.38) noble; urgency=medium
+
+  [ RadxaSongjun ]
+  * firmware: sc8280xp: add qupv3_fw.elf
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 16 Jul 2026 02:53:58 +0000
+
 radxa-firmware (0.2.37) noble; urgency=medium
 
   [ Stephen Chen ]
