@@ -13,6 +13,7 @@ prereqs)
     exit 0
     ;;
 esac
+. /usr/share/initramfs-tools/hook-functions
 
 mkdir -p ${DESTDIR}/lib/firmware/qcom/sc8280xp/radxa
 mkdir -p ${DESTDIR}/lib/firmware/qcom/vpu
@@ -23,3 +24,7 @@ cp -r /lib/firmware/qcom/vpu/vpu20_p4_gen2_s6.mbn ${DESTDIR}/lib/firmware/qcom/v
 cp /lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn* ${DESTDIR}/lib/firmware/qcom/sc8280xp/LENOVO/21BX/
 cp /lib/firmware/qcom/a660_sqe.fw* ${DESTDIR}/lib/firmware/qcom/
 cp /lib/firmware/qcom/a660_gmu.bin* ${DESTDIR}/lib/firmware/qcom/
+
+# Workaround the issue where when ADSP firmware is loaded, it resets Type-C ports
+# This caused rootfs to fail if we are booting from Type-C
+force_load qcom_q6v5_pas
