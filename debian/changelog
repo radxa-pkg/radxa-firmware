@@ -1,3 +1,13 @@
+radxa-firmware (0.2.39) noble; urgency=medium
+
+  [ Xinming Chen ]
+  * fix: add symlink for cypress/cyfmac43430-sdio.txt
+
+  [ ZHANG Yuntian ]
+  * fix: workaround Type-C port reset on Q8B
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 31 Jul 2026 02:22:07 +0000
+
 radxa-firmware (0.2.38) noble; urgency=medium
 
   [ RadxaSongjun ]
