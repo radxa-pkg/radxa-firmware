@@ -5,3 +5,10 @@ lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adspua.jsn lib/firmware/qcom/qcs6490/
 lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn lib/firmware/qcom/qcs6490/radxa/cm-q64/cdsp.mbn
 lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn lib/firmware/qcom/qcs6490/radxa/cm-q64/cdspr.jsn
 usr/share/qcom/qcs6490/radxa/dragon-q6a/dsp usr/share/qcom/qcs6490/radxa/cm-q64/dsp
+
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adsp.mbn lib/firmware/qcom/qcs6490/radxa/dragon-q6b/adsp.mbn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adspr.jsn lib/firmware/qcom/qcs6490/radxa/dragon-q6b/adspr.jsn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/adspua.jsn lib/firmware/qcom/qcs6490/radxa/dragon-q6b/adspua.jsn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn lib/firmware/qcom/qcs6490/radxa/dragon-q6b/cdsp.mbn
+lib/firmware/qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn lib/firmware/qcom/qcs6490/radxa/dragon-q6b/cdspr.jsn
+usr/share/qcom/qcs6490/radxa/dragon-q6a/dsp usr/share/qcom/qcs6490/radxa/dragon-q6b/dsp
