@@ -11,9 +11,9 @@
   # https://devenv.sh/packages/
   packages = with pkgs; [
     bash-completion
+    gettext
     git-buildpackage
     mdbook
-    mdbook-admonish
     mdbook-cmdrun
     mdbook-i18n-helpers
     mdbook-linkcheck2
