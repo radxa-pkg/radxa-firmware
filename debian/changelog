@@ -1,3 +1,10 @@
+radxa-firmware (0.2.41) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: update dragon-q8b adsp firmware for battman sensor support
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 19 Aug 2026 10:26:23 +0000
+
 radxa-firmware (0.2.40) noble; urgency=medium
 
   [ Stephen Chen ]
