@@ -1,3 +1,20 @@
+radxa-firmware (0.2.42) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: add firmware link for Radxa DragonBay 4 Pro
+  * feat: add firmware link for Radxa DragonStation 6
+  * feat: radxa-firmware: add as22x1x firmware
+  * feat: update dragon-q8b adsp firmware
+
+  [ ZHANG Yuntian ]
+  * feat: import PowerVR firmware for A733
+
+  [ Jiali Chen ]
+  * feat: link dragon-q6a DSP firmware to dragon-q6b
+  * fix:  update qcs6490 dsp firmware
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 17 Sep 2026 08:36:43 +0000
+
 radxa-firmware (0.2.41) noble; urgency=medium
 
   [ Stephen Chen ]
