@@ -32,6 +32,7 @@ Architecture: all
 Section: misc
 Priority: optional
 Depends: firmware-qcom-hlosfw,
+         firmware-qcom-audioreach,
          ${misc:Depends},
 Description: Radxa QCS9075 supplemental firmware
  This package contains firmwares for Radxa devices based on
