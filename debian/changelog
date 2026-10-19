@@ -1,3 +1,10 @@
+radxa-firmware (0.2.43) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * fix: radxa-firmware-qcs9075: add firmware-qcom-audioreach
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 19 Oct 2026 02:54:25 +0000
+
 radxa-firmware (0.2.42) noble; urgency=medium
 
   [ Stephen Chen ]
