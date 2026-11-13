@@ -1,3 +1,13 @@
+radxa-firmware (0.2.44) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * feat: radxa-firmware-qcs6490: add CAMERA_ICP_170.elf
+
+  [ ZHANG Yuntian ]
+  * fix: remove legacy distros
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Fri, 13 Nov 2026 07:57:56 +0000
+
 radxa-firmware (0.2.43) noble; urgency=medium
 
   [ Stephen Chen ]
